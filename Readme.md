@@ -10,9 +10,9 @@ Then mainTask is created and is in charge of:
 - Get the temperature from TMP006 sensor, convert in °C.
 - Wifi connection to local access point.
 - Etablish a TCP socket with Thingspeak service.
-- Then every minute, the device send two datas using GET method.
-- Thingspeak Field1 receive onboard TMP006 temperature in °C, tmp006Value.
-- Thingspeak Field2 receive TMP006 temperature value incremented of 10, Data0.
+- Then every minute, the device send two datas using GET method tmp006Value and Data0 variables array.
+- Field1 receive the onboard TMP006 temperature in °C stored in tmp006Value.
+- Field2 receive tmp006Value value incremented of 10, stored in Data0.
 
 ## How to use it. 
 Create a Thingspeak channel, with 2 fields.
