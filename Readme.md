@@ -2,9 +2,8 @@
 
 ## Send integers datas with CC3200-LAUNCHPAD to Thingspeak Cloud Service.
 This project uses CC3200-LAUNCHXL board and is designed with Code Composer Studio 8.3.0 and CC3200SDK_1.5.0.
-In main file after CC3200 device intialization and Pinmux configuration, appTskCreat() is called.
-
-Serial UART for terminal logging, I2C with TMP006 are configured.
+In main file after CC3200 device intialization and Pinmux configuration, appTskCreat() is called to:
+Configure serial UART for terminal logging and I2C for TMP006 temperature sensor.
 
 Then mainTask is created and is in charge of:
 - Get the temperature from TMP006 sensor, convert in °C.
