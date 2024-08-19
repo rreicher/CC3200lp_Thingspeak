@@ -30,6 +30,7 @@ in app_cloud.c, update your Thingspeak API key.
 ```
 #define THINGSPEAK_APIKEY       "YOUR_THINGSPEAK_API_KEY"
 ```
+Make sure jumper J2, J3 are closed.
 
 ## Result.
 ![Thingspeak Channel Visualization!](/img/Thinkspeak_channel.png "")
