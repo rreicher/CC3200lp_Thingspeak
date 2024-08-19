@@ -1,3 +1,5 @@
+![CC3200LP!](/img/cc3200.png "")
+
 ## Send integers datas with CC3200-LAUNCHPAD to Thingspeak Cloud Service.
 This project uses CC3200-LAUNCHXL board. After intialization and wifi AP connection, a TCP socket is etablished with Thingspeak service.
 Then every minute, the device send two datas using GET method.
@@ -18,3 +20,6 @@ In app_conf.h, update the following define according to your wifi access point:
 in app_cloud.c, update your Thingspeak API key.  
 
 #define THINGSPEAK_APIKEY       "YOUR_THINGSPEAK_API_KEY"
+
+## Result.
+![Thingspeak Channel Visualization!](/img/Thinkspeak_channel.png "")
