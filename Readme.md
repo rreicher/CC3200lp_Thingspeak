@@ -8,7 +8,8 @@ Thingspeak Field1 receive TMP006 temperature value incremented of 10, Data0.
 
 ## How to use it. 
 Create a Thingspeak channel, with 2 fields.
-![Thingspeak Channel Visualization!](/img/Thinkspeak_channel_setting.png "")
+
+![Thingspeak Channel settings!](/img/Thinkspeak_channel_settings.png "")
 
 In app_conf.h, update the following define according to your wifi access point:
 ```
