@@ -29,9 +29,9 @@
 extern "C" {
 #endif
 
-#define CC_SSID_NAME          "Freebox-688FC0"         /* AP SSID */
-#define CC_SECURITY_TYPE      SL_SEC_TYPE_WPA_WPA2     /* Security type (OPEN or WEP or WPA */
-#define CC_SECURITY_KEY       "9vbcmq5mk7qmm5cfqm4v5w" /* Password of the secured AP */
+#define CC_SSID_NAME          "YOUR_WIFI_SSID"          /* AP SSID */
+#define CC_SECURITY_TYPE      SL_SEC_TYPE_WPA_WPA2      /* Security type (OPEN or WEP or WPA */
+#define CC_SECURITY_KEY       "YOUR_WIFI_SSID_PASSWORD" /* Password of the secured AP */
 #define CC_SSID_LEN_MAX       32
 #define CC_BSSID_LEN_MAX      6
 

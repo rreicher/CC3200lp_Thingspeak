@@ -80,7 +80,7 @@
 #define HOST_NAME               "api.thingspeak.com"
 #define HOST_PORT               80
 
-#define THINGSPEAK_APIKEY       "ERT5ERGTIB5ER6DC"
+#define THINGSPEAK_APIKEY       "YOUR_THINGSPEAK_API_KEY"
 #define THINGSPEAK_HEADER       "GET /update?api_key=%s"
 #define THINGSPEAK_FIELD        "&field%d=%u"
 
