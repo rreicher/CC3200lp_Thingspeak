@@ -5,7 +5,7 @@ This project uses CC3200-LAUNCHXL board and is designed with Code Composer Studi
 In main file after CC3200 device intialization and Pinmux configuration, appTskCreat() is called to:
 Configure serial UART for terminal logging and I2C for TMP006 temperature sensor.
 
-Then mainTask is created and is in charge of:
+Then mainTask is created and is in charge to:
 - Get the temperature from TMP006 sensor, convert in °C.
 - Wifi connection to local access point.
 - Etablish a TCP socket with Thingspeak service.
